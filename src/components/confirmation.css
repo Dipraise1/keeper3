@@ -1,0 +1,86 @@
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0e0b21 0%, #2AABEE 100%);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .confirmation-content {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+  }
+  
+  .confirmation-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2AABEE;
+    margin-bottom: 1.5rem;
+  }
+  
+  .address-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .address-label {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+  }
+  
+  .address {
+    font-size: 1.2rem;
+    color: white;
+    word-break: break-all;
+    font-family: monospace;
+  }
+  
+  .details-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .detail-item {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .loader {
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 5px solid #2AABEE;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  .waiting-text {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

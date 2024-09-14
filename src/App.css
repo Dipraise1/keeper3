@@ -1,0 +1,17 @@
+.app-container {
+  background: linear-gradient(to right, #000000, #434343); /* Black to dark gray gradient */
+  min-height: 100vh;
+  color: white; /* Optional: Adjust text color for better contrast */
+}
+.form-field {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+.header {
+  color: #2AABEE;
+  margin-bottom: 30px;
+}
