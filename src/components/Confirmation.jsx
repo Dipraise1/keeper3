@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import "./Confirmation.css";
+import "./confirmation.css";
 
 function Confirmation() {
   const location = useLocation();

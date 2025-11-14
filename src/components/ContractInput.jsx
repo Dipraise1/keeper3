@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./ContractInput.css";
+import "./contractinput.css";
 
 function ContractInput() {
   const [contractAddress, setContractAddress] = useState("");
